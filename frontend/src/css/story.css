@@ -1,0 +1,12 @@
+.story-container {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scroll-snap-type: x mandatory;
+}
+
+.story-item {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  margin-right: 10px;
+}

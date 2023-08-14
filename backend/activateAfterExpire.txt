@@ -1,0 +1,11 @@
+Step 1 : Go to ----------->  https://developers.google.com/oauthplayground/?code=4/0AbUR2VONcVyGWipO2Yj2b5iJfoMGsE1wGIme_-KV_Dl9HBsuRwlgtyH9q_B-fR3BOZcUJQ&scope=https://mail.google.com/
+
+Step 2 : Enter Your OAuth2 Credentials
+
+Step 3 : Select & Authorize API and Search for "https://mail.google.com"
+
+Step 4 : Verify Account Again
+
+Step 5 : get the REFRESH TOKEN & ACCESS TOKEN and paste in the .env file
+
+Step 6 : Done.

@@ -1,0 +1,22 @@
+.story-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+}
+
+.story-container::-webkit-scrollbar {
+  display: none; /* Hide the scroll bar for WebKit browsers (e.g., Chrome, Safari) */
+}
+
+.story-item {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  scroll-snap-align: start;
+  cursor: pointer;
+  text-align: center;
+}
+
+.story-item:active {
+  cursor: pointer;
+}
